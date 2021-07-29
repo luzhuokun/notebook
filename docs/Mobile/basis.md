@@ -29,5 +29,12 @@ https://seminelee.com/2019/05/08/rn-miniprogram/
 [移动端Web页面适配方案（整理版）](https://www.jianshu.com/p/2c33921d5a68)
 
 ## 1px问题
-- 设置initial-scale为1/dpr
-- transform的scale属性
+### 原因
+- 设计师用两倍图做设计稿，那么在两倍图里设计1px的话，在实际屏幕像素是0.5px，由于手机硬件限制0.5px会被四舍五入成1px显示，但现在很多手机都支持0.5px像素了
+
+### 解决
+- transform设置scale
+
+### 相关的
+- 当浏览器放大效果表现出来就是一个css用更多的物理像素来显示
+
