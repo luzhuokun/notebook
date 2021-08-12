@@ -1,4 +1,4 @@
-// 快速排序
+// 快速排序（nlog2n nlog2n 不稳定）
 
 let quickSort = (arr, left, right) => {
   if (left < right) {

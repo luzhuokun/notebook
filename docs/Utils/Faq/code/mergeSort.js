@@ -1,4 +1,4 @@
-// 归并排序
+// 归并排序（nlog2n n 稳定）
 
 let mergeSort = (arr, left, right) => {
   if (left < right) {
