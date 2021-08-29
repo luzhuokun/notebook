@@ -19,10 +19,10 @@
 https://seminelee.com/2019/05/08/rn-miniprogram/
 
 ## 移动端页面适配方案
-- meta viewport
-- css3 @media媒体查询
+- 设置理想视口viewport
+- css3 @media媒体查询 + rem
 - 动态rem方案 [flexible布局](http://caibaojian.com/flexible-js.html)
-- vw/vh
+- vw/vh 宽度自适应（小程序的rpx）
 - flex布局
 - grid布局
 

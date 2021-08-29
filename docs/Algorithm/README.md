@@ -1,5 +1,9 @@
 [算法小抄](https://labuladong.gitbook.io/algo/)
 
+## 经典算法
+- 滑动窗口
+- 优先队列（堆）
+
 ## 中心扩展法求解子回文串数量
 ```js
 const countSubstrings = (s) => {
